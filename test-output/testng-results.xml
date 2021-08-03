@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4357" started-at="2021-08-03T17:30:00 IST" finished-at="2021-08-03T17:30:04 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4357" started-at="2021-08-03T17:30:00 IST" finished-at="2021-08-03T17:30:04 IST">
+      <class name="RingCentral.QATest.ApiTests">
+        <test-method status="PASS" signature="successfullyCreateUser()[pri:0, instance:RingCentral.QATest.ApiTests@6acdbdf5]" name="successfullyCreateUser" duration-ms="3420" started-at="2021-08-03T17:30:00 IST" finished-at="2021-08-03T17:30:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullyCreateUser -->
+        <test-method status="PASS" signature="validateErrorOnCreatingUser_DOBGreaterThanCurrentDate()[pri:0, instance:RingCentral.QATest.ApiTests@6acdbdf5]" name="validateErrorOnCreatingUser_DOBGreaterThanCurrentDate" duration-ms="111" started-at="2021-08-03T17:30:03 IST" finished-at="2021-08-03T17:30:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorOnCreatingUser_DOBGreaterThanCurrentDate -->
+        <test-method status="PASS" signature="validateErrorOnCreatingUser_InvalidEmail()[pri:0, instance:RingCentral.QATest.ApiTests@6acdbdf5]" name="validateErrorOnCreatingUser_InvalidEmail" duration-ms="47" started-at="2021-08-03T17:30:03 IST" finished-at="2021-08-03T17:30:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorOnCreatingUser_InvalidEmail -->
+        <test-method status="PASS" signature="getAllUsers()[pri:0, instance:RingCentral.QATest.ApiTests@6acdbdf5]" name="getAllUsers" duration-ms="580" started-at="2021-08-03T17:30:03 IST" finished-at="2021-08-03T17:30:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method status="PASS" signature="getSpecificUsers()[pri:0, instance:RingCentral.QATest.ApiTests@6acdbdf5]" name="getSpecificUsers" duration-ms="52" started-at="2021-08-03T17:30:04 IST" finished-at="2021-08-03T17:30:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpecificUsers -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:RingCentral.QATest.ApiTests@6acdbdf5]" name="deleteUser" duration-ms="47" started-at="2021-08-03T17:30:04 IST" depends-on-methods="RingCentral.QATest.ApiTests.successfullyCreateUser" finished-at="2021-08-03T17:30:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="deleteUser_AlreadyDeleted()[pri:0, instance:RingCentral.QATest.ApiTests@6acdbdf5]" name="deleteUser_AlreadyDeleted" duration-ms="21" started-at="2021-08-03T17:30:04 IST" depends-on-methods="RingCentral.QATest.ApiTests.deleteUser" finished-at="2021-08-03T17:30:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser_AlreadyDeleted -->
+        <test-method status="PASS" signature="getDeletedUsers()[pri:0, instance:RingCentral.QATest.ApiTests@6acdbdf5]" name="getDeletedUsers" duration-ms="21" started-at="2021-08-03T17:30:04 IST" depends-on-methods="RingCentral.QATest.ApiTests.deleteUser" finished-at="2021-08-03T17:30:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDeletedUsers -->
+      </class> <!-- RingCentral.QATest.ApiTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
